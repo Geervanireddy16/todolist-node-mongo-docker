@@ -17,15 +17,13 @@ A simple application to plan and organize tasks with features to add and delete 
 Install Node.js from the [official website](https://nodejs.org).
 
 2. **Docker** : 
-Install Docker for
    - Install Docker Desktop for [Windows](https://docs.docker.com/desktop/windows/install/)
-   - Install Docker Desktop for[Mac](https://docs.docker.com/desktop/mac/install/)
-   - Install Docker for[Linux](https://docs.docker.com/engine/install/)
+   - Install Docker Desktop for [Mac](https://docs.docker.com/desktop/mac/install/)
+   - Install Docker for [Linux](https://docs.docker.com/engine/install/)
 
 3. **Docker Compose** : 
 For Linux install [Docker compose](https://docs.docker.com/compose/install/).
-
-Note : Docker Desktop for Windows and Mac already has Docker Compose. So no need to install it separately.
+>Note : Docker Desktop for Windows and Mac already has Docker Compose. So no need to install it separately.
 
 
 ## Dependencies
