@@ -49,7 +49,7 @@ For Linux install [Docker compose](https://docs.docker.com/compose/install/).
     ```bash
     npm install mongoose --save
     ```
-Note : *--save* installs the package and updates the dependencies in your package. json
+>Note : *--save* installs the package and updates the dependencies in your package. json
 
 ## Run the application using Docker Compose
 
@@ -78,8 +78,7 @@ Builds, (re)creates, starts and attaches to containers for service
 docker-compose up
 ```
 
-Note
-: *docker-compose up -d* starts the containers in the background and leaves them running.
+>Note : *docker-compose up -d* starts the containers in the background and leaves them running.
 
 ### 2. Stop the application
 Stops and removes containers, networks and images created
