@@ -10,14 +10,7 @@ const app = express() //creating express application
 mongoose.connect('mongodb://mongo:27017/tododb',
    { useNewUrlParser: true })
   .then(() => console.log('MongoDB Connected'))
-  .catch(err => console.log(err));
-
-//Mongodb Atlas connection
-// mongoose.connect('mongodb+srv://root:root@cluster0.unnc2.mongodb.net/tododb?retryWrites=true&w=majority',
-//   { useNewUrlParser: true })
-//   .then(() => console.log('MongoDB Connected'))
-//   .catch(err => console.log(err));
-  
+  .catch(err => console.log(err));  
 
 app.set('view engine','ejs')
 app.use(bodyParser.urlencoded({extended:true}));
