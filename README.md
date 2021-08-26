@@ -86,6 +86,7 @@ Stops and removes containers, networks and images created
 ```bash
 docker-compose down
 ```
+>**Note :** To rebuild the image use `docker-compose build` or `docker-compose up --build`.
 
 ## License
 This project is licensed under the MIT License. Learn more about it in the [LICENSE](LICENSE) file.
