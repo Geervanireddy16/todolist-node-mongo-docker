@@ -78,7 +78,7 @@ Builds, (re)creates, starts and attaches to containers for service
 docker-compose up
 ```
 
->Note : *docker-compose up -d* starts the containers in the background and leaves them running.
+>Note : `docker-compose up -d` starts the containers in the background and leaves them running.
 
 ### 2. Stop the application
 Stops and removes containers, networks and images created
