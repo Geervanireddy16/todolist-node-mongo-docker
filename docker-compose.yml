@@ -1,6 +1,6 @@
 version: '3'
 services:
-  app:
+  todo-list_app:
     container_name: todo-list_app
     image: todo-list_app:1.0
     restart: always
